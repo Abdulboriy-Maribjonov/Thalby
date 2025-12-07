@@ -12,4 +12,5 @@ closeMenu.addEventListener("click",()=>{
 })
 appMenu.addEventListener("click",()=>{
     appList.classList.toggle("app-active")
+    appMenu.classList.toggle("appM-active")
 })
